@@ -1,6 +1,6 @@
-# AWS+Terraform+Chef+Wordpress
+# AWS+Terraform+Chef+WordPress
 
-Deploys WordPress in AWS using Terraform and Chef
+Deploy WordPress in AWS using Terraform and Chef
 
 ### Terraform script deploys following resources in us-west-2 region
 -  VPC
