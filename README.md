@@ -1,4 +1,4 @@
-# WordPress Assignment
+# AWS+Terraform+Chef+Wordpress
 
 Deploys WordPress in AWS using Terraform and Chef
 
