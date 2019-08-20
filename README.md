@@ -6,7 +6,7 @@ Deploy WordPress in AWS using Terraform and Chef
 -  VPC
 -  Public Subnet
 -  Internet Gateway
--  Security Group allowing ports 22, 80 and 443. Presently open to 0.0.0.0/0
+-  Security Group allowing ports 22, 80 and 443. 
 -  Route table and route table association
 -  RHEL7.6 EC2 instance with a user data script for cloud-init
 #### Variables such as VPC/Subnet CIDR's, AMI, region, instance type, etc are specified in vars.tf file
@@ -19,7 +19,7 @@ Deploy WordPress in AWS using Terraform and Chef
 
 ## Prerequisites
 
--  Download latest version of terraform executable to the workstation/server from where you plan to execute the script
+-  Download latest version of terraform executable to the workstation/server from where you plan to execute the scripts
 -  Install AWS CLI and configure credentials using "aws configure". Credentials are needed for terraform to initialize s3 backend
 -  git clone the repo
 -  terraform init, plan, apply
